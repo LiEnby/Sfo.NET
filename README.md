@@ -11,7 +11,7 @@ or
 ```
 Reading values: 
 ```
-  UInt32 AttributeMinor = (UInt32)SfoKeys\["ATTRIBUTE_MINOR"];           
+  UInt32 AttributeMinor = (UInt32)SfoKeys["ATTRIBUTE_MINOR"];           
   Byte[] AccountId = (Byte[])SfoKeys["ACCOUNT_ID"];           
-  String TitleId = (string)SfoKeys["TITLE_ID"];              
+  String TitleId = (String)SfoKeys["TITLE_ID"];              
 ```
