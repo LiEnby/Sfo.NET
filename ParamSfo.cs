@@ -50,11 +50,11 @@ namespace ParamSfo
                             break; 
 
                         case PSF_TYPE_VAL:
-                            Value = DataUtils.ReadUint32At(Sfo, ValueLocation + i);
+                            Value = DataUtils.ReadUint32At(Sfo, ValueLocation);
                             break;
 
                         case PSF_TYPE_BIN:
-                            Value = DataUtils.ReadBytesAt(Sfo,ValueLocation + i, Convert.ToInt32(ValueSize));
+                            Value = DataUtils.ReadBytesAt(Sfo,ValueLocation, Convert.ToInt32(ValueSize));
                             break;
                     }
 
